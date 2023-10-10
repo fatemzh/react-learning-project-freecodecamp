@@ -1,5 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+const { React, ReactDOM } = window;
 
 const navbar = (
     <nav>
