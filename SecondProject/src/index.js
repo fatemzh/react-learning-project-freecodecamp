@@ -2,8 +2,9 @@ const {React, ReactDOM} = window;
 import Header from './Header.js';
 import MainContent from './MainContent.js';
 import Footer from './Footer.js';
+import App from './App.js';
 
-function App (){
+function MainPage (){
     return (
         <div>
             <Header/>
@@ -12,6 +13,12 @@ function App (){
         </div>
     )
 }
+
+ReactDOM.render(
+    <MainPage/>,
+    <App/>,
+    document.getElementById("root")
+)
 
 ReactDOM.render(
     <App/>,
